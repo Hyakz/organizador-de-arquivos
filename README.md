@@ -40,7 +40,7 @@ O projeto oferece funcionalidades como:
 1. Clone o repositório para sua máquina local:
 
    ```bash
-   git clone <url-do-repositório>
+   git clone https://github.com/Hyakz/organizador-de-arquivos
    ```
 
 2. Execute o programa com o comando:
