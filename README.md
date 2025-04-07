@@ -7,11 +7,8 @@ Este projeto foi desenvolvido para organizar arquivos de diferentes tipos (exten
 A estrutura de pastas e arquivos do projeto é a seguinte:
 
 ```
-├── css/
-├── html/
-├── js/
-├── json/
-├── Files/
+├── Arquivos/
+├── Manipulacao/
 │   ├── __pycache__/
 │   ├── __init__.py
 │   ├── mover.py
@@ -23,7 +20,7 @@ A estrutura de pastas e arquivos do projeto é a seguinte:
 └── README.md
 ```
 
-- **css/**, **html/**, **js/**, **json/**: Pastas para armazenar os arquivos de cada tipo, organizados por suas extensões.
+- **Arquivos/** contém os arquivos que usei para testar o funcionamento. 
 - **Files/**: Contém os arquivos Python responsáveis por realizar a organização dos arquivos.
 - **Utils/**: Contém utilitários adicionais para o funcionamento do projeto, como o arquivo `.gitignore` e o arquivo principal `App.py`.
 - **README.md**: Este arquivo.
@@ -44,12 +41,10 @@ O projeto oferece funcionalidades como:
    git clone <url-do-repositório>
    ```
 
-2. Instale as dependências, se necessário (por exemplo, bibliotecas de manipulação de arquivos).
-
-3. Execute o programa com o comando:
+2. Execute o programa com o comando:
 
    ```bash
    python App.py
    ```
-
-4. O script organizará os arquivos nas pastas adequadas, com base nas suas extensões.
+   
+3. O script organizará os arquivos nas pastas adequadas, com base nas suas extensões. Os arquivos podem estar em qualquer local da sua máquina.
