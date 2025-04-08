@@ -9,14 +9,17 @@ A estrutura de pastas e arquivos do projeto é a seguinte:
 ```
 ├── Arquivos/
 ├── Interface/
-│   └── interface.py     
+│   └── interface.py
+│ 
 ├── Manipulacao/              
 │   ├── mover.py          
 │   ├── organizador.py    
-│   └── renomear.py      
+│   └── renomear.py
+│
 ├── Utils/                
 │   ├── arquivos.py       
 │   └── pastas.py
+│
 ├── .gitignore 
 ├── README.md                         
 └── App.py                
