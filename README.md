@@ -23,7 +23,7 @@ A estrutura de pastas e arquivos do projeto é a seguinte:
 ```
 
 - **Arquivos/** contém os arquivos que usei para testar o funcionamento. 
-- **Files/**: Contém os arquivos Python responsáveis por realizar a organização dos arquivos.
+- **Manipulacao/**: Contém os arquivos Python responsáveis por realizar a organização dos arquivos.
 - **Utils/**: Contém utilitários adicionais para o funcionamento do projeto, como o arquivo `.gitignore` e o arquivo principal `App.py`.
 - **README.md**: Este arquivo.
 
