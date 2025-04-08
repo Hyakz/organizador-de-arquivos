@@ -7,22 +7,23 @@ Este projeto foi desenvolvido para organizar arquivos de diferentes tipos (exten
 A estrutura de pastas e arquivos do projeto é a seguinte:
 
 ```
-├── Arquivos/             
-├── Manipulacao/          
-│   ├── __pycache__/     
-│   ├── __init__.py       
+├── Arquivos/
+├── Interface/
+│   └── interface.py     
+├── Manipulacao/              
 │   ├── mover.py          
 │   ├── organizador.py    
 │   └── renomear.py      
 ├── Utils/                
 │   ├── arquivos.py       
-│   └── pastas.py        
-├── README.md             
-├── .gitignore             
+│   └── pastas.py
+├── .gitignore 
+├── README.md                         
 └── App.py                
 ```
 
-- **Arquivos/** contém os arquivos que usei para testar o funcionamento. 
+- **Arquivos/** contém os arquivos que usei para testar o funcionamento.
+- **Interface/**: Responsavel pela Interface do projeto.
 - **Manipulacao/**: Contém os arquivos Python responsáveis por realizar a organização dos arquivos.
 - **Utils/**: Contém utilitários adicionais para o funcionamento do projeto, como o arquivo `.gitignore` e o arquivo principal `App.py`.
 - **README.md**: Este arquivo.
