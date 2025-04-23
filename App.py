@@ -1,4 +1,4 @@
-from Interface.interface import Interface
+from Interface import Interface
 
 class Main:
     def __init__(self):
@@ -6,7 +6,7 @@ class Main:
 
     def start(self):
         opcoes = {
-            '1': Interface.organizar_arquivos,
+            '1': self.interface.organizar_arquivos,
             '2': self.interface.mover_arquivo,
             '3': self.interface.renomear_arquivo,
             '4': lambda: print("Saindo do programa...") or exit()
@@ -20,6 +20,7 @@ class Main:
                     opcoes[opcao]()  
                 else:
                     print("Opção inválida! Tente novamente.")
+                    
         except KeyboardInterrupt:
             print("\nAplicação Finalizada...")
             exit()

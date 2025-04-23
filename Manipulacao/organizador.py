@@ -1,6 +1,6 @@
 import os
-from Utils.pastas import Pastas
-from Utils.arquivos import Arquivos
+from Utils import Pastas
+from Utils import Arquivos
 
 class Organizador:
     def __init__(self):

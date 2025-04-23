@@ -1,8 +1,8 @@
-from Manipulacao.organizador import Organizador
-from Manipulacao.mover import Mover
-from Manipulacao.renomear import Renomear
-from Utils.arquivos import Arquivos
-from Utils.pastas import Pastas
+from Manipulacao import Organizador
+from Manipulacao import Mover
+from Manipulacao import Renomear
+from Utils import Arquivos
+from Utils import Pastas
 
 class Interface:
     def __init__(self):
